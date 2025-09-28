@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+//  Head kısmına kütüphane ile ilgili eklemeler yapılır
+</head>
+<body>
+// body kısmına ise normal html css satırları yazılır.
+
+// h etiketleri 6 numaraya kadar gider 1 en büyük 6 en küçük boyuttur başlıklar için yazılır
+<h1>Kayseri Üniversitesi</h1>  
+<h2>Kayseri Üniversitesi</h2> 
+<h3>Kayseri Üniversitesi</h3>
+<h4>Kayseri Üniversitesi</h4> 
+<h5>Kayseri Üniversitesi</h5>
+<h6>Kayseri Üniversitesi</h6> 
+
+
+<p>Bilgisayar Programcılığı</p> //p etiketi ise normal paragraf biçiminde yazı yazılmasını sağlar.
+<i>İtalik Yazı</i> // italik yazmak için i etiketi kullanılır. 
+
+<br> // bir satır alta kaydırmak için kullanılır.
+
+<a href="/User/Index">Kullanıcılar</a> // a etiketi link anlamına gelir bu sayede kullanıcılar bu linke basarak projedeki sayfalara href içindeki linkten erişebilirler.
+<br>
+
+<form> // form kullanıcıların bir yere kayıt olması vs işlemleri için kullanılır içerisine yazılan label input textbox textarea buton gibi şeyler sayesinde kayıt kullanıcıdan alınır.
+<br>
+<label>İsim:</label> // inputun önüne yazarız ve kullanıcıdan hangi bilgiyi istediğimizi söyleriz.
+
+<input type="text"> // input ile tabloya veri eklenmesini sağlarız type ise password,text,email gibi belirlenir.
+
+<br>
+<label>Soyisim:</label>
+<input type="text">
+
+<button class="btn" type="submit">Kaydet</button> // bıton eklememizi sağlar css ile tasarımı güzelleştiririz ve type=submit olur ise formdaki bilgilerin controllera gönderilmesini sağlar.
+<br>
+
+<table class="table table-bordered"> // tablo eklenmesini sağlar
+<thead> // head yani tablonun kolon isimleri sırayla yazılır
+<tr> // aynı satır içinde kalmasını sağlar
+<th>İsim<th> // th ile kolon isimleri yazılır.
+<th>Soyisim<th>
+</tr>
+</thead> 
+<tbody> // body ise kolonların içine doldurulacak veriler aynı sıra ile yazılır
+<tr>
+<td>Ali Burak</td> // kolon verileri için td kullanılır.
+<td>Öztürk</td>
+</tr>
+
+<img src="buraya resimin adresi yazılır."> // resim ikon vb eklemek için kullanılır.
+</tbody>
+
+</table>
+</form>
+
+
+</body>
+</html>
