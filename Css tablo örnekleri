@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+   
+  </head>
+
+  <body>
+    <style>
+h1{
+
+  color:green;
+  background-color:white;
+}
+div {
+
+  border:4px solid black;
+  padding-left:20px;
+  margin-top:150px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom:150px;
+  padding:150px;
+  background-color:pink;
+  
+}
+
+table
+{
+
+  border-collapse:collapse;
+  width:100%;
+  
+}
+tr:hover{
+
+   background-color: green;
+}
+//tr:nth-child(even) {background-color: #f2f2f2;}
+
+td
+{
+  border:5px solid;
+  padding-left:2px;
+  padding:7px;
+  margin-right:20px;
+  
+  
+}
+th{
+ border:5px solid;
+  padding-left:2px;
+  padding:7px;
+  margin-right:20px;
+  color:black;
+  height:70%;
+
+}
+    </style>
+    <h1>Hello Plunker!</h1>
+
+    <div> 
+    <h2>Hello Plunker</h2>
+
+
+
+    </div>
+    <br>
+
+    <table>
+<tr>
+  <th>Ad</th>
+  <th>Soyad</th>
+</tr>  
+<tr>
+  <td>
+    Ali Burak
+  </td>
+  <td>
+    Öztürk
+  </td>
+  <tr>  
+    <td>
+    Barış
+  </td>
+  <td>
+    Gilgil
+  </td>
+  </tr> 
+  <td>
+    Mehmet
+  </td>
+  <td>
+    Yılmaz
+  </td>
+  <tr>  
+    <td>
+    Murat
+  </td>
+  <td>
+    Can
+  </td>
+  </tr> 
+
+</tr>
+    </table>
+    
+  </body>
+</html>
