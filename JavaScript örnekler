@@ -33,3 +33,17 @@ else
     {
        console.log("Dersten kaldiniz");
  }
+
+let durum=(not1<not2);
+let hesap;
+console.log(durum);
+
+switch(durum)
+{
+case true:
+hesap=not1+not2;
+console.log(hesap);
+break;
+case false:
+  console.log("Baska bir sayi giriniz");
+}
