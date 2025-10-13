@@ -1,0 +1,35 @@
+
+let maas=6000;
+let maasFurki=4000; // let ve var arasındaki fark let sadece bir değer alır var ise değerin üstüne tekrar değer tanımlanabilir.
+console.log(maas+(maas*0.3));
+console.log(maasFurki+(maasFurki*0.3));
+
+var urunadi='İphone 16';
+var fiyat='100';
+console.log(typeof urunadi)
+
+console.log(Number=fiyat);
+var sayi1="10";
+var sayi2="20";
+//let result=30;
+//let result2=20;
+//console.log(Number(sayi1) +parseInt(sayi2));
+//console.log(toString=result, toString=result2);
+
+//let isim = 'Ali Burak';
+//let Soyad= 'Öztürk';
+
+//console.log(isim+" "+Soyad);
+
+let sinavnotu= 60;
+let basarinotu=(sinavnotu>70);
+console.log(basarinotu);
+if(sinavnotu>basarinotu)
+{
+  console.log("Dersten gectiniz");
+
+}
+else 
+    {
+       console.log("Dersten kaldiniz");
+ }
